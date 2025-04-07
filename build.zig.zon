@@ -5,6 +5,10 @@
 
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
+        .common_experiment = .{
+            .url = "https://github.com/Arciesis/client-server-common-experimentation/archive/main.tar.gz",
+            .hash = "common_experiment-0.0.0-Ao96CIgFAAAuty2i74i7UE1un3sepJEIKZE9NRjbI3A3",
+        },
     },
 
     .paths = .{
